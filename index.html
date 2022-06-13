@@ -7,8 +7,8 @@
     <title>QuizBox</title>
 </head>
 <body>
-   <div class="wrapper">
-     <div class="container">
+   <div class="wrapper wrapper-main">
+       <div class="container">
        <header class="header">
 <a href="/" class="logo">
     <img src="" alt="" class="logo__pic">
@@ -17,23 +17,13 @@
 <nav class="menu">
     <ul class="menu__list">
         <li class="menu__item">
-            <div class="menu__title">
-                <a href="">Главная</a>
-            </div>
+            <a href="" class="menu__link">Главная</a>
         </li>
-    </ul>
-    <ul class="menu__list">
         <li class="menu__item">
-            <div class="menu__title">
-                <a href="">Игры</a>
-            </div>
+                <a href="" class="menu__link">Игры</a>
         </li>
-    </ul>
-    <ul class="menu__list">
         <li class="menu__item">
-            <div class="menu__title">
-                <a href="">Отзывы</a>
-            </div>
+                <a href="" class="menu__link">Отзывы</a>
         </li>
     </ul>
 </nav>
@@ -43,76 +33,91 @@
 Обед: 14:00-14:30">График работы</p>
     </address>
        </header>
-       <div class="page-content">
-           <main class="main-content">
-<h1>Интеллектуальный вечер для шумной компании</h1>
-<h4>Игры на любой вкус</h4>
-<button class="button-more">Подробнее</button>
-<div class="main-content__news">
-    <div class="iconed-title">
-        <div class="iconed-title__text">Новинки недели</div>
-        <img src="" alt="" class="iconed-title__pic">
+           <main class="main">
+               <section class="hero">
+                    <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
+                    <h4 class="hero__title-small">Игры на любой вкус</h4>
+                    <button class="hero__more">Подробнее</button>
+               </section>
+                <section class="news">
+    <h2 class="news">Новинки недели</h2>
+    <div class="news__block">
+        <ul class="news__list">
+            <li class="news__item">
+                <img src="" alt="" class="news__img">
+                <h4 class="news__music">Музыкальная игра</h4>
+                <div class="news__desc">
+                    <ul class="news__desc-list">
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">90 минут</p>
+                        </li>
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">70 вопросов</p>
+                        </li>
+                        </ul>
+                </div>
+                <div class="news__about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                <a href="" class="news__link">Смотреть</a>
+            </li>
+            <li class="news__item">
+                <img src="" alt="" class="news__img">
+                <h4 class="news__back90">Назад в 90-е</h4>
+                <div class="news__desc">
+                    <ul class="news__desc-list">
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">90 минут</p>
+                        </li>
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">70 вопросов</p>
+                        </li>
+                        </ul>
+                </div>
+                <div class="news__about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                <a href="" class="news__link">Смотреть</a>
+            </li>
+            <li class="news__item">
+                <img src="" alt="" class="news__img">
+                <h4 class="news__quizit">IT-викторина</h4>
+                <div class="news__desc">
+                    <ul class="news__desc-list">
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">90 минут</p>
+                        </li>
+                        <li class="news__desk-item">
+                            <img src="" alt="" class="news__desc-img">
+                            <p class="news__desc-text">70 вопросов</p>
+                        </li>
+                        </ul>
+                </div>
+                <div class="news__about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+                <a href="" class="news__link">Смотреть</a>
+            </li>
+        </ul>
     </div>
-    <div class="row">
-        <div class="column-music">
-            <div class="content">
-                <img src="" alt="" class="column-music__pic">
-            <h4>Музыкальная игра</h4>
-            <div class="iconed-time-event">
-                <img src="" alt="" class="iconed-time-event__icon">
-                <div class="iconed-time-event__text">90 минут</div>
-            </div>
-            <div class="iconed-question-event">
-                <img src="" alt="" class="iconed-question-event__icon">
-                <div class="iconed-question-event__text">70 вопросов</div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta nihil ea veniam molestias quae sequi, eos facere dolor est eveniet quibusdam veritatis perferendis vitae praesentium illum maiores enim quaerat.</p>
-            <button class="row">смотреть</button>
-        </div>
-        </div>
-        <div class="column-back90">
-            <div class="content">
-                <img src="" alt="" class="column-back90__pic">
-            <h4>Назад в 90-е</h4>
-            <div class="iconed-time-event">
-                <img src="" alt="" class="iconed-time-event__icon">
-                <div class="iconed-time-event__text">90 минут</div>
-            </div>
-            <div class="iconed-question-event">
-                <img src="" alt="" class="iconed-question-event__icon">
-                <div class="iconed-question-event__text">70 вопросов</div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta nihil ea veniam molestias quae sequi, eos facere dolor est eveniet quibusdam veritatis perferendis vitae praesentium illum maiores enim quaerat.</p>
-            <button class="row-active">смотреть</button>
-        </div>
-        </div>
-        <div class="column-quizit">
-            <div class="content">
-                <img src="" alt="" class="column-quizit__pic">
-            <h4>ИТ-викторина</h4>
-            <div class="iconed-time-event">
-                <img src="" alt="" class="iconed-time-event__icon">
-                <div class="iconed-time-event__text">90 минут</div>
-            </div>
-            <div class="iconed-question-event">
-                <img src="" alt="" class="iconed-question-event__icon">
-                <div class="iconed-question-event__text">70 вопросов</div>
-            </div> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta nihil ea veniam molestias quae sequi, eos facere dolor est eveniet quibusdam veritatis perferendis vitae praesentium illum maiores enim quaerat.</p>
-            <button class="row">смотреть</button>   
-        </div>
-        </div>
-        <div class="past-games">
-            <h3>Прошедшие игры</h3>
-            <img src="" alt="" class="past-games__new-year">
-            <p>1 января</p>
-            <h4>новогодний квиз</h4>
-            <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-            <img src="" alt="" class="past-games__spring-game">
-            <p>8 марта</p>
-            <h4>Весенняя игра</h4>
-            <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-        </div>
+                </section>
+
+    
+        <section class="past-games">
+            <ul class="games__list">
+                <li class="games__item">
+                    <img src="" alt="" class="games__img">
+                    <p class="games__date">1 января</p>
+                    <h4 class="games__title">Новогодний квиз</h4>
+                    <p class="games__about">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                </li>
+                <li class="games__item">
+                    <img src="" alt="" class="games__img">
+                    <p class="games__date">8 марта</p>
+                    <h4 class="games__title">Весенняя игра</h4>
+                    <p class="games__about">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                </li>
+            </ul>
+        </section>
         <div class="paginator">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
@@ -126,12 +131,12 @@
             </ul>
         </div>
         
-<div class="about">
+<section class="about">
     <img src="" alt="" class="about__photo">
     <h3>О нас</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate et nihil exercitationem consequatur, voluptatibus quam natus voluptate ea eaque sed dolorem provident quidem. Delectus cumque dolor repellendus. Sapiente, dolores.</p>
     <button class="about">Подробнее</button>
-</div>
+</section>
 <footer class="footer">
     <a href="/" class="logo">
         <img src="" alt="" class="logo__pic">
@@ -139,27 +144,17 @@
     <nav class="menu">
         <ul class="menu__list">
             <li class="menu__item">
-                <div class="menu__title">
-                    <a href="">Главная</a>
-                </div>
+                <a href="" class="menu__link">Главная</a>
             </li>
-        </ul>
-        <ul class="menu__list">
             <li class="menu__item">
-                <div class="menu__title">
-                    <a href="">Игры</a>
-                </div>
+                    <a href="" class="menu__link">Игры</a>
             </li>
-        </ul>
-        <ul class="menu__list">
             <li class="menu__item">
-                <div class="menu__title">
-                    <a href="">Отзывы</a>
-                </div>
+                    <a href="" class="menu__link">Отзывы</a>
             </li>
         </ul>
     </nav>
-    <nav class="social">
+    <div class="social">
         <ul class="social__list">
             <li class="social__item">
                 <div class="social__title">
@@ -167,24 +162,18 @@
                     <img src="" alt="" class="social__icon-telegram">
                 </div>
             </li>
-        </ul>
-        <ul class="social__list">
             <li class="social__item">
                 <div class="social__title">
                     <a href="" class="social__vk"></a>
                     <img src="" alt="" class="social__icon-vk">
                 </div>
             </li>
-        </ul>
-        <ul class="social__list">
             <li class="social__item">
                 <div class="social__title">
                     <a href="" class="social__facebook"></a>
                     <img src="" alt="" class="social__icon-facebook">
                 </div>
             </li>
-        </ul>
-        <ul class="social__list">
             <li class="social__item">
                 <div class="social__title">
                     <a href="" class="social__instagram"></a>
@@ -192,7 +181,7 @@
                 </div>
             </li>
         </ul>
-    </nav>
+    </div>
     <adress class="contacts">
         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
         <p class="contacts">
@@ -202,12 +191,9 @@
 </footer>
 
     </div>
-</div>
-
-
            </main>
        </div>
-       </div>
    </div>
+</div>
 </body>
 </html>
