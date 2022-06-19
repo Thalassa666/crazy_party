@@ -38,7 +38,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("img/main1.png") top center, url("img/main2.png") bottom 120px center, #17191C;
+    background: url("/img/main1.png") top center, url("/img/main2.png") bottom 120px center, #17191C;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -313,7 +313,7 @@ p {
     width: 345px;
     height: 360px;
     border-radius: 3px;
-    background: url("img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png") center center / cover no-repeat;
+    background: url("img/about.png") center center / cover no-repeat;
 }
 
 .about__desc {
@@ -392,15 +392,15 @@ p {
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url("img/vk\ \(1\).png");
+    background-image: url("img/vk.png");
 }
 
 .socials__item--icon--fb .socials__link {
-    background-image: url("img/f\ \(1\).png");
+    background-image: url("img/f.png");
 }
 
 .socials__item--icon--ig .socials__link {
-    background-image: url("img/in\ \(1\).png");
+    background-image: url("img/in.png");
 }
 
 .socials__item--icon--tg .socials__link:hover {
