@@ -38,7 +38,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url("/main.png") top center, url("../img/main2.png") bottom 120px center, #17191C;
+    background: url("img/main.png") top center, url("img/main2.png") bottom 120px center, #17191C;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -313,7 +313,7 @@ p {
     width: 345px;
     height: 360px;
     border-radius: 3px;
-    background: url("../img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png") center center / cover no-repeat;
+    background: url("img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png") center center / cover no-repeat;
 }
 
 .about__desc {
@@ -388,35 +388,35 @@ p {
 }
 
 .socials__item--icon--tg .socials__link {
-    background-image: url("../img/telegram.png");
+    background-image: url("img/telegram.png");
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url("../img/vk\ \(1\).png");
+    background-image: url("img/vk\ \(1\).png");
 }
 
 .socials__item--icon--fb .socials__link {
-    background-image: url("../img/f\ \(1\).png");
+    background-image: url("img/f\ \(1\).png");
 }
 
 .socials__item--icon--ig .socials__link {
-    background-image: url("../img/in\ \(1\).png");
+    background-image: url("img/in\ \(1\).png");
 }
 
 .socials__item--icon--tg .socials__link:hover {
-    background-image: url("../img/t-hover.png");
+    background-image: url("img/t-hover.png");
 }
 
 .socials__item--icon--vk .socials__link:hover {
-    background-image: url("../img/vk-hover.png");
+    background-image: url("img/vk-hover.png");
 }
 
 .socials__item--icon--fb .socials__link:hover {
-    background-image: url("../img/f2-hover.png");
+    background-image: url("img/f2-hover.png");
 }
 
 .socials__item--icon--ig .socials__link:hover {
-    background-image: url("../img/in-hover.png");
+    background-image: url("img/in-hover.png");
 }
 
 .menu--footer {
