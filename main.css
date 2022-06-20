@@ -41,6 +41,7 @@ p {
     background: url("img/main1.png") top center, url("img/main2.png") bottom 120px center, #17191C;
     background-repeat: no-repeat;
     background-size: contain;
+    background-blend-mode: luminosity;
 }
 
 .container {
@@ -197,15 +198,18 @@ p {
 
 .news__about-block {
     display: inline-block;
-    vertical-align: top;
-    width: 80px;
     font-size: 11px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    vertical-align: middle;
 }
 
-.news__about-block:last-child {
-    margin-right: 0;
+.news__about-min {
+margin-right: 14px;
+vertical-align: middle;
+}
+
+.news__about-question {
+    vertical-align: middle;
 }
 
 .news__about-desc {
