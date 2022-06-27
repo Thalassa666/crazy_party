@@ -9,7 +9,7 @@ body {
 }
 
 .main-page-wrapper {
-    background: url("./img/main1.png") top center, url("./img/main2.png") bottom 120px center, #17191C;
+    background: url("../../img/main1.png") top center, url("../../img/main2.png") bottom 120px center, #17191C;
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: luminosity;
@@ -76,7 +76,7 @@ body {
     min-height: 412px;
     display: flex;
     flex-direction: column;
-    background: url("./img/main1.png") center no-repeat, #17191C;
+    background: url("../../img/main1.png") center no-repeat, #17191C;
     background-blend-mode: luminosity;
     margin-bottom: 90px;
 }  
