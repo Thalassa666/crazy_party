@@ -7,7 +7,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url("/img/main1.png") top center, #17191C; 
+    background: url("../../img/main1.png") top center, #17191C; 
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: luminosity;
