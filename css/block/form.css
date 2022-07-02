@@ -1,0 +1,81 @@
+.form__row {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.form__row--right {
+    justify-content: flex-end;
+}
+
+.form__col {
+    flex: 1;
+    margin-right: 28px;
+}
+
+.form__col:last-child {
+    margin-right: 0;
+}
+
+.form__input {
+    width: 100%;
+    padding: 19px 30px 21px 30px;
+}
+
+.form__input:focus, .form__textarea:focus{
+    border-color: #8F00FF;
+}
+
+.form__input, .form__textarea {
+    font-size: 18px;
+    line-height: 25px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    color: #1A1B1E;
+}
+
+.form__textarea {
+    padding: 29px 30px;
+    min-height: 235px;
+}
+
+.form__text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E; 
+    max-width: 365px;
+    width: 100%;
+}
+
+.form__check-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 54px;
+}
+
+.form__check-item {
+    margin-right: 7px;
+    margin-bottom: 9px; 
+}
+
+.form__checkbox {
+    position: absolute;
+    left: -9999px;
+}
+
+.form__checkbox:checked + .form__check-text {
+    background: #B9EAE4;
+}
+
+.form__check-text {
+    display: inline-flex;
+    justify-content: center;
+    background: #E7E7E7;
+    border-radius: 35px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #303030;
+    padding: 9px 20px;
+    transition: .5s;
+}
