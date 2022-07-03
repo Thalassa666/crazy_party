@@ -22,7 +22,7 @@
 }
 
 .contacts__dropdown:hover .contacts__dropdown-menu {
-    left: 0;
+    left: 30px;
     opacity: 0.8;
 }
 
