@@ -15,7 +15,7 @@
     transition: .3s;
 }
 
-.menu__link:hover {
+.menu__link:active {
     color: #8F00FF;
 }
 
